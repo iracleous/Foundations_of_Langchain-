@@ -11,12 +11,15 @@ pyproject.toml -> requires-python = ">=3.12, <4.0"
 
 
 poetry add openai langchain langchain_openai dotenv langchain_community text_generation langchain_huggingface
+
 poetry add sentence-transformers langchain_chroma
 
 
 
 
+
 ============================================================
+
 Day 1 Examples
 
 Example 1: Call Azure OpenAI with Python
