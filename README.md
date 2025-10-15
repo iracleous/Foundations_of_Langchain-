@@ -14,7 +14,6 @@ poetry add openai langchain langchain_openai dotenv langchain_community text_gen
 poetry add sentence-transformers langchain_chroma
 
 
-docker run -d --name tgi-summarizer -p 12080:80 ghcr.io/huggingface/text-generation-inference:latest --model-id facebook/bart-large-cnn
 
 
 ============================================================
